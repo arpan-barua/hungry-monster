@@ -1,0 +1,29 @@
+body {
+  margin: 60px;
+}
+.input-container {
+  width: 400px;
+  margin-left: 400px;
+}
+
+.item {
+  border: 1px solid gray;
+  border-radius: 10px;
+}
+
+.item img {
+  width: 100%;
+}
+
+#meals-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+}
+
+#ingredients {
+  background-color: whitesmoke;
+  border-radius: 10px;
+  width: 200px;
+  margin-left: 500px;
+}
